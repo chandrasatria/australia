@@ -1,0 +1,18 @@
+include MANIFEST.in
+include requirements.txt
+include *.json
+include *.md
+include *.py
+include *.txt
+recursive-include australia *.css
+recursive-include australia *.csv
+recursive-include australia *.html
+recursive-include australia *.ico
+recursive-include australia *.js
+recursive-include australia *.json
+recursive-include australia *.md
+recursive-include australia *.png
+recursive-include australia *.py
+recursive-include australia *.svg
+recursive-include australia *.txt
+recursive-exclude australia *.pyc
