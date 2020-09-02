@@ -76,8 +76,6 @@ cur_frm.cscript.get_sales_and_purchase = function(doc){
 					doc.g11 = r["message"][0][2]
 					doc.g13 = r["message"][0][3]
 					doc.g14 = r["message"][0][4]
-					doc.g15 = r["message"][0][5]
-
 					calculate_purchase(doc)
 				}
 		    }
